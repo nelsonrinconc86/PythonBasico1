@@ -6,13 +6,13 @@ cero hasta el número que digito el usuario..........
 
 """
 
-print("Digite un Numero entero y positivo.. ")
+print("Digite un Numero entero y positivo... ")
 Numero=int(input())
-i=0
+x=0
 suma=0
-while Numero!=i:
-    i=i+1
-    suma=suma+i
+while Numero!=x:
+    x=x+1
+    suma=suma+x
 
 print("La sumatoria del rango es: "+str(suma))
 
